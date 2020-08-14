@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Contact</title>
+        
+    </head>
+    <body>
+        <!-- NavBar (copied and pasted from WC3) -->
+        <!-- Static navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html"><button type="button" class="btn btn-outline-light">Adriana Almeida</button></a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active" >
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <!--Main -->
+        <main class="container" style="background-color:lightgray;border-radius: 10px;margin-top: 60px;">
+            <br>
+            <div>
+                <h1>Get in touch!</h1>
+            </div>
+            <hr>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number">
+                </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputPurpose" placeholder="What's your purpose">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="inputMessage" rows="3" placeholder="Enter your message"></textarea>
+                </div>
+                <!--Button to submit the message-->
+                <div class="form-group" style="align-items: center;">
+                    <button type="submit" class="btn btn-secondary" onclick="Message()">Send Me</button>
+                </div>
+                <br>
+            </form>
+        </main>
+        <br>
+        <!-- Footer -->
+        <footer class="fixed-bottom bg-dark"> 
+            <!--Footer - copyright information-->
+            <div><p id=Copyright>© 2020 Copyright</p></div>
+        </footer>
+
+        <!--Javascript bloc-->
+        <script type="text/javascript">
+            function Message()
+            {
+                var inputVal = document.getElementById("inputLastName").value;
+                alert(inputVal + "&lt;" + "br" + "&gt;" +  "Thank you for your message. I will contact you soon!");
+                location.reload();
+            }
+        </script>
+
+        <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
+                For now, this is code to copy and paste. We'll get to script elements soon enough. -->
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

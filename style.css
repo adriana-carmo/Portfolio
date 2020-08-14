@@ -1,0 +1,22 @@
+body {
+     background-image: url("Image_hw2/bkg_abstract_molecular.jpg");
+     background-color: #cccccc; /* Used if the image is unavailable */
+     height: 100%; /* You must set a specified height */
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover; /* Resize the background image to cover the entire container */
+     }
+ 
+ h1 {
+     color:grey;
+     text-align: center;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 40px;
+ }
+
+ #Copyright{
+     text-align:center;
+     color:grey;
+     padding-top: 6px;
+ }
+
