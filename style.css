@@ -11,12 +11,35 @@ body {
      color:grey;
      text-align: center;
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     font-size: 40px;
+     font-size: 50px;
+ }
+
+ h2{
+     color: #56585a ;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 25px;
+ }
+
+ p{
+    color: #56585a ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-align: justify;
+ }
+
+ .Main{
+    background-color: #ebecf0;
+    border-radius: 10px;
+    margin-top: 50px;
  }
 
  #Copyright{
      text-align:center;
      color:grey;
-     padding-top: 6px;
+     padding-top: 3px;
+ }
+
+ header{
+     padding-top: 10px;
  }
 
