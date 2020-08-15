@@ -5,14 +5,17 @@
         <!-- We need the following responsive meta tag to ensure things scale correctly across varying devices. -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- We need to bring in the bootstrap CSS -->
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        <!-- bootstrap CSS -->
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
             crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="style.css">
+        >
+
+        <!--My own CSS-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Title of page-->
         <title>My Profile</title>
 
     </head>
@@ -20,7 +23,7 @@
     <body>
         <!-- NavBar (copied and pasted from WC3) -->
         <!-- Static navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <a class="navbar-brand" href="index.html"><button type="button" class="btn btn-outline-light">Adriana Almeida</button></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,20 +45,20 @@
         </nav>
         <!-- Main Body goes in Container -->
         <main class="container Main">
-            <header class="container" style="margin-bottom:0">
+            <header class="container">
                 <h1>About Me - Adriana Almeida</h1>
             </header>
             <hr>
             <div class="row">
                 <div class="col-lg-3">
-                    <img class="img img-thumbnail" src="Image_hw2/img_profile.jpg" title="Adriana Almeida">
+                    <img class="img img-thumbnail imgprofile" src="images/img_profile.jpg" title="Adriana Almeida">
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 col align-self-center">
                     <h2>Web Development Student</h2>
-                    <p>Hi, I am Adriana Almeida, I have lived in the USA since 2018. I have a degree in Software Engineering from the FASP University in Brazil.</p>
-                    <p>In Brazil I worked as a software analyst supporting and maintaining the company's system using C# and SQL Server technologies. In 2016 to 2017 I migrated to the Quality Assurance Software area and worked with agile projects. I was responsible for designing test scenarios for software usability, running these tests, and preparing reports on the effectiveness and defects to the production team.</p>
-                    <p>Currently I am studying Full Stack Web Developer Bootcamp at Columbia University to improve my skills in JavaScript, CSS, React.js, Node.js and other responsive web designs.</p>
-                    <p>Last, but not least in my free time, I like watching movies and going to the cafeteria to enjoy some drinks and atmosphere.</p>
+                    <p>Hi, I am Adriana Almeida, software engineer with a degree in Software Engineering from FASP University in Brazil.</p>
+                    <p>Currently I am studying Full Stack Web Developer Bootcamp at Columbia University to improve my skills in JavaScript, CSS, React.js, Node.js and other responsive web designs. I have been studying english since I arrived in the USA.</p>
+                    <p>In Brazil I worked as a software analyst supporting and maintaining the company's system using C# and SQL Server technologies. In 2016 to 2017 I moved to the Quality Assurance Software department, then starting to work with agile projects, which I accomplished the SCRUM Master certification.</p>
+                    <p>I am fascinated by party decorations for birthdays, specially children parties, wedding parties and I also enjoy my free time visiting cozy coffee shops.</p>
                 </div>
             </div>
             <hr>
@@ -64,27 +67,16 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <a href="https://www.linkedin.com/in/adriana-abedala-do-carmo-almeida-a03241184/" target="#">
-                        <img src="image_hw2/icons8-linkedin-50.png"/>
+                        <img src="images/icons8-linkedin-50.png"/>
+                    </a>
+                    <a href="https://github.com/adriana-carmo" target="#"> 
+                        <img class="icon" src="images/icon_github.png"/>
                     </a>
                 </div>
                 <div class="col-lg-4">
                 </div>
             </div>
            <br>
-          <!--  <div class="row">
-                <div class="col-lg-12">
-                    <!-- The content in this div gets wrapped in a card -->
-                   <!-- <div class="card">
-                        <div class="card-body">
-                            <div class="text-center">
-                            <img class="" src="http://placehold.it/50x50" alt="">
-                            <img class="" src="http://placehold.it/50x50" alt="">
-                            <img class="" src="http://placehold.it/50x50" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
         </main>
         <br>
         <!-- Footer -->
