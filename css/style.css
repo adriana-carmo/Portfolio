@@ -1,0 +1,62 @@
+body {
+     background-image: url("../images/bkg_white_lines.jpg");
+     background-color: #dddee7; /* Used if the image is unavailable */
+     background-position-y: 100%;
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover; /* Resize the background image to cover the entire container */
+     }
+ 
+ h1 {
+     color:grey;
+     text-align: center;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 50px;
+ }
+
+ h2{
+     color: #56585a ;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 25px;
+ }
+
+ p{
+    color: #56585a ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-align: justify;
+ }
+
+ .Main{
+    /*background-color: #ebecf0;*/
+    background-color: #f0f2f5;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-right: 30px;
+ }
+
+ #Copyright{
+     text-align:center;
+     color:grey;
+     padding-top: 3px;
+ }
+
+ header{
+     padding-top: 10px;
+ }
+
+.imgresize{
+    width: 320px;
+    height: 270px;
+    margin: 10px auto;
+}
+
+.imgprofile{
+    width: 310px;
+    height: 330px;
+    margin: 10px auto;
+}
+
+.icon{
+    width: 47px;
+}
