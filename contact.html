@@ -3,8 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        
+        <!-- bootstrap CSS -->
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+        />
+        
+        <!--My own CSS-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Title of page-->
         <title>Contact</title>
         
     </head>
@@ -75,7 +86,7 @@
             <div><p id=Copyright>© 2020 Copyright</p></div>
         </footer>
 
-        <!--Javascript bloc-->
+        <!--Javascript block-->
         <script type="text/javascript">
             // declaration variables
             var inputLastName, inputFirstName, inputEmail, inputPurpose
@@ -117,7 +128,6 @@
             function message()
             {
                 validate = validateForm();
-                //var inputLastName = document.getElementById("inputLastName").value;
                 if(validate){
                     alert("Hello " + inputFirstName + " " + inputLastName +  ", thank you for your message. I will contact you soon!");
                     location.reload();
