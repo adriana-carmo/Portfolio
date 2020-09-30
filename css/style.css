@@ -5,7 +5,7 @@ body {
      background-position: center; /* Center the image */
      background-repeat: no-repeat; /* Do not repeat the image */
      background-size: cover; /* Resize the background image to cover the entire container */
-     }
+}
  
  h1 {
      color:grey;
@@ -28,7 +28,6 @@ body {
  }
 
  .Main{
-    /*background-color: #ebecf0;*/
     background-color: #f0f2f5;
     border-radius: 10px;
     margin-top: 50px;
@@ -60,3 +59,9 @@ body {
 .icon{
     width: 47px;
 }
+
+a{
+    color: white;  
+}
+
+

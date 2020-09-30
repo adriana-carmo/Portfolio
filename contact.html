@@ -85,63 +85,11 @@
             <!--Footer - copyright information-->
             <div><p id=Copyright>© 2020 Copyright</p></div>
         </footer>
-
-        <!--Javascript block-->
-        <script type="text/javascript">
-            // declaration variables
-            var inputLastName, inputFirstName, inputEmail, inputPurpose
-            var validate = false;
-
-            function validateForm()
-            {
-                inputFirstName = document.getElementById("inputFirstName").value;
-                inputLastName = document.getElementById("inputLastName").value;
-                inputEmail = document.getElementById("inputEmail").value;
-                inputPurpose = document.getElementById("inputPurpose").value;
-
-                if(inputFirstName == "" || inputFirstName.length < 2)
-                {
-                    alert("Please enter a first name with at least 2 letters");
-                    return false;
-                }
-                if(inputLastName == "" || inputLastName.length < 2)
-                {
-                    alert("Please enter a last name with at least 2 letters");
-                    return false;
-                } 
-                if(inputEmail == "" || inputEmail.length < 6)
-                {
-                    alert("Please enter a valid email address");
-                    return false;
-                } 
-                if(inputPurpose == "" || inputPurpose.length < 10)
-                {
-                    alert("Please enter a purpose with at least 10 letters");
-                    return false;
-                } 
-                else
-                    return true;
-            }
-
-
-            // function to return message
-            function message()
-            {
-                validate = validateForm();
-                if(validate){
-                    alert("Hello " + inputFirstName + " " + inputLastName +  ", thank you for your message. I will contact you soon!");
-                    location.reload();
-                }
-            }
-
-            
-        </script>
-
         <!-- Here we bring in some scripts required to allow some Bootstrap components to work.
                 For now, this is code to copy and paste. We'll get to script elements soon enough. -->
-        <script
-            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        <script   
+            src="https://code.jquery.com/jquery-3.5.1.min.js"   
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="   
             crossorigin="anonymous"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
@@ -151,5 +99,6 @@
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
+        <script src="contact.js"></script>
     </body>
 </html>
